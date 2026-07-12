@@ -8,6 +8,3 @@ wheels/
 
 # Virtual environments
 .venv
-#results folder
-results/*.json
-results/*.pkl
