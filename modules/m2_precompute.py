@@ -14,10 +14,8 @@ mp.mp.dps = 100
 try:
     from estimator import LWE, ND
     ESTIMATOR_AVAILABLE = True
-except ImportError as e:
-    print(f"[FATAL] lattice-estimator not found: {e}")
-    print("Run inside WSL with SageMath active.")
-    sys.exit(1)
+except (ImportError, ModuleNotFoundError):
+    ESTIMATOR_AVAILABLE = False
 
 N = 256
 Q = 3329
@@ -192,7 +190,9 @@ def estimate_security(k: int, eta1: int, eta2: int,
 
 # ── Main ──────────────────────────────────────────────────────────────────
 def run():
-    # At the top of run(), before the main loop:
+    if not ESTIMATOR_AVAILABLE:
+        print("[FATAL] lattice-estimator not found. Run inside WSL with SageMath active.")
+        sys.exit(1)
     print("  Computing security threshold from Kyber-512 baseline...")
     kyber512_security = estimate_security(k=2, eta1=3, eta2=2)
     security_threshold = kyber512_security
