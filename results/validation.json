@@ -1,0 +1,564 @@
+{
+  "n_feasible": 406,
+  "true_front_size": 5,
+  "nsga_front_size": 5,
+  "coverage": 1.0,
+  "igd": 0.0,
+  "missed": [],
+  "extra": [],
+  "identical": true,
+  "convergence": {
+    "generation_full_coverage": 6,
+    "unique_evals_full_coverage": 111,
+    "total_unique_evaluated": 163,
+    "history": [
+      {
+        "generation": 1,
+        "unique_feasible_evaluated": 46,
+        "true_front_discovered": 2
+      },
+      {
+        "generation": 2,
+        "unique_feasible_evaluated": 62,
+        "true_front_discovered": 2
+      },
+      {
+        "generation": 3,
+        "unique_feasible_evaluated": 85,
+        "true_front_discovered": 3
+      },
+      {
+        "generation": 4,
+        "unique_feasible_evaluated": 98,
+        "true_front_discovered": 4
+      },
+      {
+        "generation": 5,
+        "unique_feasible_evaluated": 106,
+        "true_front_discovered": 4
+      },
+      {
+        "generation": 6,
+        "unique_feasible_evaluated": 111,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 7,
+        "unique_feasible_evaluated": 113,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 8,
+        "unique_feasible_evaluated": 118,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 9,
+        "unique_feasible_evaluated": 121,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 10,
+        "unique_feasible_evaluated": 123,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 11,
+        "unique_feasible_evaluated": 125,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 12,
+        "unique_feasible_evaluated": 127,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 13,
+        "unique_feasible_evaluated": 129,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 14,
+        "unique_feasible_evaluated": 129,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 15,
+        "unique_feasible_evaluated": 131,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 16,
+        "unique_feasible_evaluated": 131,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 17,
+        "unique_feasible_evaluated": 133,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 18,
+        "unique_feasible_evaluated": 134,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 19,
+        "unique_feasible_evaluated": 134,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 20,
+        "unique_feasible_evaluated": 134,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 21,
+        "unique_feasible_evaluated": 135,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 22,
+        "unique_feasible_evaluated": 138,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 23,
+        "unique_feasible_evaluated": 138,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 24,
+        "unique_feasible_evaluated": 139,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 25,
+        "unique_feasible_evaluated": 139,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 26,
+        "unique_feasible_evaluated": 139,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 27,
+        "unique_feasible_evaluated": 139,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 28,
+        "unique_feasible_evaluated": 139,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 29,
+        "unique_feasible_evaluated": 139,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 30,
+        "unique_feasible_evaluated": 139,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 31,
+        "unique_feasible_evaluated": 140,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 32,
+        "unique_feasible_evaluated": 140,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 33,
+        "unique_feasible_evaluated": 141,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 34,
+        "unique_feasible_evaluated": 142,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 35,
+        "unique_feasible_evaluated": 145,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 36,
+        "unique_feasible_evaluated": 145,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 37,
+        "unique_feasible_evaluated": 146,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 38,
+        "unique_feasible_evaluated": 147,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 39,
+        "unique_feasible_evaluated": 147,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 40,
+        "unique_feasible_evaluated": 147,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 41,
+        "unique_feasible_evaluated": 147,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 42,
+        "unique_feasible_evaluated": 147,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 43,
+        "unique_feasible_evaluated": 147,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 44,
+        "unique_feasible_evaluated": 147,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 45,
+        "unique_feasible_evaluated": 148,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 46,
+        "unique_feasible_evaluated": 149,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 47,
+        "unique_feasible_evaluated": 150,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 48,
+        "unique_feasible_evaluated": 150,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 49,
+        "unique_feasible_evaluated": 150,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 50,
+        "unique_feasible_evaluated": 150,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 51,
+        "unique_feasible_evaluated": 151,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 52,
+        "unique_feasible_evaluated": 152,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 53,
+        "unique_feasible_evaluated": 152,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 54,
+        "unique_feasible_evaluated": 152,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 55,
+        "unique_feasible_evaluated": 153,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 56,
+        "unique_feasible_evaluated": 153,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 57,
+        "unique_feasible_evaluated": 153,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 58,
+        "unique_feasible_evaluated": 153,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 59,
+        "unique_feasible_evaluated": 153,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 60,
+        "unique_feasible_evaluated": 153,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 61,
+        "unique_feasible_evaluated": 154,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 62,
+        "unique_feasible_evaluated": 154,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 63,
+        "unique_feasible_evaluated": 154,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 64,
+        "unique_feasible_evaluated": 154,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 65,
+        "unique_feasible_evaluated": 154,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 66,
+        "unique_feasible_evaluated": 154,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 67,
+        "unique_feasible_evaluated": 154,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 68,
+        "unique_feasible_evaluated": 154,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 69,
+        "unique_feasible_evaluated": 155,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 70,
+        "unique_feasible_evaluated": 155,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 71,
+        "unique_feasible_evaluated": 155,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 72,
+        "unique_feasible_evaluated": 155,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 73,
+        "unique_feasible_evaluated": 155,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 74,
+        "unique_feasible_evaluated": 155,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 75,
+        "unique_feasible_evaluated": 155,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 76,
+        "unique_feasible_evaluated": 156,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 77,
+        "unique_feasible_evaluated": 157,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 78,
+        "unique_feasible_evaluated": 158,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 79,
+        "unique_feasible_evaluated": 158,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 80,
+        "unique_feasible_evaluated": 159,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 81,
+        "unique_feasible_evaluated": 159,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 82,
+        "unique_feasible_evaluated": 160,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 83,
+        "unique_feasible_evaluated": 160,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 84,
+        "unique_feasible_evaluated": 161,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 85,
+        "unique_feasible_evaluated": 161,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 86,
+        "unique_feasible_evaluated": 161,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 87,
+        "unique_feasible_evaluated": 162,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 88,
+        "unique_feasible_evaluated": 162,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 89,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 90,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 91,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 92,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 93,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 94,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 95,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 96,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 97,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 98,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 99,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      },
+      {
+        "generation": 100,
+        "unique_feasible_evaluated": 163,
+        "true_front_discovered": 5
+      }
+    ]
+  },
+  "true_front": [
+    {
+      "k": 2,
+      "eta1": 2,
+      "eta2": 2,
+      "du": 9,
+      "dv": 3,
+      "ct_bytes": 672,
+      "log2_delta": -98.4277
+    },
+    {
+      "k": 2,
+      "eta1": 2,
+      "eta2": 2,
+      "du": 9,
+      "dv": 4,
+      "ct_bytes": 704,
+      "log2_delta": -131.7734
+    },
+    {
+      "k": 2,
+      "eta1": 2,
+      "eta2": 2,
+      "du": 10,
+      "dv": 3,
+      "ct_bytes": 736,
+      "log2_delta": -184.5301
+    },
+    {
+      "k": 2,
+      "eta1": 2,
+      "eta2": 2,
+      "du": 10,
+      "dv": 4,
+      "ct_bytes": 768,
+      "log2_delta": -246.3271
+    },
+    {
+      "k": 2,
+      "eta1": 2,
+      "eta2": 2,
+      "du": 10,
+      "dv": 5,
+      "ct_bytes": 800,
+      "log2_delta": -512.0
+    }
+  ]
+}
