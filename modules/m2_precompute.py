@@ -143,7 +143,9 @@ def compute_delta(k: int, eta1: int, eta2: int,
             p_fail_scaled += px
 
     if p_fail_scaled <= 0:
-        return float("-inf")
+        # delta below the 2^-PREC fixed-point floor; report the floor
+        # rather than -inf so it stays a usable optimization objective.
+        return float(-PREC)
 
     # p_fail = p_fail_scaled / SCALE.  delta = 1 - (1 - p_fail)^n
     import mpmath as mp
