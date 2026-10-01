@@ -1,0 +1,11 @@
+--- common/hal-opencm3.c.orig	2026-09-17 05:47:30.425780020 +0000
++++ common/hal-opencm3.c	2026-09-17 05:47:30.427062855 +0000
+@@ -8,7 +8,7 @@
+ #include <libopencm3/cm3/nvic.h>
+ #include <libopencm3/cm3/systick.h>
+ 
+-#if defined(STM32F407VG)
++#if defined(STM32F407VG) || defined(STM32F407VE)
+ 
+ #include <libopencm3/stm32/rcc.h>
+ #include <libopencm3/stm32/gpio.h>

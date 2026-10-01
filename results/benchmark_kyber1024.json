@@ -1,0 +1,339 @@
+{
+  "baseline": "Kyber-1024",
+  "settings": {
+    "latency_runs": 1000,
+    "monte_carlo_runs": 2000
+  },
+  "results": [
+    {
+      "name": "Kyber-1024 (baseline)",
+      "config": {
+        "k": 4,
+        "eta1": 2,
+        "eta2": 2,
+        "du": 11,
+        "dv": 5
+      },
+      "sizes": {
+        "pk_bytes": 1568,
+        "sk_bytes": 3168,
+        "ct_bytes": 1568
+      },
+      "latency": {
+        "keygen": {
+          "mean_ms": 5.9116060006199405,
+          "std_ms": 0.4247326958524699
+        },
+        "encaps": {
+          "mean_ms": 7.1786045007174835,
+          "std_ms": 0.32542339288286926
+        },
+        "decaps": {
+          "mean_ms": 9.442517800605856,
+          "std_ms": 0.5102689911994613
+        }
+      },
+      "memory": {
+        "peak_kb": 351.2939453125
+      },
+      "correctness": {
+        "runs": 2000,
+        "failures": 0
+      }
+    },
+    {
+      "name": "P1",
+      "config": {
+        "k": 4,
+        "eta1": 2,
+        "eta2": 2,
+        "du": 10,
+        "dv": 5,
+        "ct_bytes": 1440,
+        "log2_delta": -143.26378963373796,
+        "security": 241.75563141280617,
+        "security_matzov": 262.3356800074737,
+        "pk_bytes": 1568,
+        "sk_bytes": 3168
+      },
+      "sizes": {
+        "pk_bytes": 1568,
+        "sk_bytes": 3168,
+        "ct_bytes": 1440
+      },
+      "latency": {
+        "keygen": {
+          "mean_ms": 8.975544800632633,
+          "std_ms": 6.6223348472795385
+        },
+        "encaps": {
+          "mean_ms": 23.26445399946533,
+          "std_ms": 1.4053442954044766
+        },
+        "decaps": {
+          "mean_ms": 31.147771797841415,
+          "std_ms": 2.302225751722218
+        }
+      },
+      "memory": {
+        "peak_kb": 348.0439453125
+      },
+      "correctness": {
+        "runs": 2000,
+        "failures": 0
+      }
+    },
+    {
+      "name": "P2",
+      "config": {
+        "k": 4,
+        "eta1": 2,
+        "eta2": 2,
+        "du": 10,
+        "dv": 6,
+        "ct_bytes": 1472,
+        "log2_delta": -151.71705399819567,
+        "security": 241.75563141280617,
+        "security_matzov": 262.3356800074737,
+        "pk_bytes": 1568,
+        "sk_bytes": 3168
+      },
+      "sizes": {
+        "pk_bytes": 1568,
+        "sk_bytes": 3168,
+        "ct_bytes": 1472
+      },
+      "latency": {
+        "keygen": {
+          "mean_ms": 19.07650730025489,
+          "std_ms": 1.4612881475355974
+        },
+        "encaps": {
+          "mean_ms": 23.5814771031728,
+          "std_ms": 1.367900027603568
+        },
+        "decaps": {
+          "mean_ms": 30.45367419871036,
+          "std_ms": 1.5944809771226784
+        }
+      },
+      "memory": {
+        "peak_kb": 348.0751953125
+      },
+      "correctness": {
+        "runs": 2000,
+        "failures": 0
+      }
+    },
+    {
+      "name": "P3",
+      "config": {
+        "k": 4,
+        "eta1": 2,
+        "eta2": 2,
+        "du": 11,
+        "dv": 4,
+        "ct_bytes": 1536,
+        "log2_delta": -154.2131928846984,
+        "security": 241.75563141280617,
+        "security_matzov": 262.3356800074737,
+        "pk_bytes": 1568,
+        "sk_bytes": 3168
+      },
+      "sizes": {
+        "pk_bytes": 1568,
+        "sk_bytes": 3168,
+        "ct_bytes": 1536
+      },
+      "latency": {
+        "keygen": {
+          "mean_ms": 19.49772430153098,
+          "std_ms": 1.4490937184521873
+        },
+        "encaps": {
+          "mean_ms": 24.086060099536553,
+          "std_ms": 5.1037343381492475
+        },
+        "decaps": {
+          "mean_ms": 21.43758410064038,
+          "std_ms": 9.244005202410749
+        }
+      },
+      "memory": {
+        "peak_kb": 349.9501953125
+      },
+      "correctness": {
+        "runs": 2000,
+        "failures": 0
+      }
+    },
+    {
+      "name": "P4",
+      "config": {
+        "k": 4,
+        "eta1": 2,
+        "eta2": 2,
+        "du": 11,
+        "dv": 5,
+        "ct_bytes": 1568,
+        "log2_delta": -175.196066039723,
+        "security": 241.75563141280617,
+        "security_matzov": 262.3356800074737,
+        "pk_bytes": 1568,
+        "sk_bytes": 3168
+      },
+      "sizes": {
+        "pk_bytes": 1568,
+        "sk_bytes": 3168,
+        "ct_bytes": 1568
+      },
+      "latency": {
+        "keygen": {
+          "mean_ms": 19.07360609830357,
+          "std_ms": 1.3651556873114534
+        },
+        "encaps": {
+          "mean_ms": 23.186909500160255,
+          "std_ms": 1.3043371426494004
+        },
+        "decaps": {
+          "mean_ms": 30.411809899494983,
+          "std_ms": 1.0268360419814617
+        }
+      },
+      "memory": {
+        "peak_kb": 349.3876953125
+      },
+      "correctness": {
+        "runs": 2000,
+        "failures": 0
+      }
+    },
+    {
+      "name": "P5",
+      "config": {
+        "k": 4,
+        "eta1": 2,
+        "eta2": 2,
+        "du": 11,
+        "dv": 6,
+        "ct_bytes": 1600,
+        "log2_delta": -185.68136193252838,
+        "security": 241.75563141280617,
+        "security_matzov": 262.3356800074737,
+        "pk_bytes": 1568,
+        "sk_bytes": 3168
+      },
+      "sizes": {
+        "pk_bytes": 1568,
+        "sk_bytes": 3168,
+        "ct_bytes": 1600
+      },
+      "latency": {
+        "keygen": {
+          "mean_ms": 19.202157301595435,
+          "std_ms": 1.1511353234913488
+        },
+        "encaps": {
+          "mean_ms": 23.492171099060215,
+          "std_ms": 1.1606223322285365
+        },
+        "decaps": {
+          "mean_ms": 30.75371730013285,
+          "std_ms": 1.1660226124125
+        }
+      },
+      "memory": {
+        "peak_kb": 349.5439453125
+      },
+      "correctness": {
+        "runs": 2000,
+        "failures": 0
+      }
+    },
+    {
+      "name": "P6",
+      "config": {
+        "k": 4,
+        "eta1": 2,
+        "eta2": 2,
+        "du": 12,
+        "dv": 5,
+        "ct_bytes": 1696,
+        "log2_delta": -208.73812267905365,
+        "security": 241.75563141280617,
+        "security_matzov": 262.3356800074737,
+        "pk_bytes": 1568,
+        "sk_bytes": 3168
+      },
+      "sizes": {
+        "pk_bytes": 1568,
+        "sk_bytes": 3168,
+        "ct_bytes": 1696
+      },
+      "latency": {
+        "keygen": {
+          "mean_ms": 5.873636799515225,
+          "std_ms": 0.32436167253643133
+        },
+        "encaps": {
+          "mean_ms": 7.16508370032534,
+          "std_ms": 0.2923313277795967
+        },
+        "decaps": {
+          "mean_ms": 9.448093698127195,
+          "std_ms": 0.45836588487746305
+        }
+      },
+      "memory": {
+        "peak_kb": 347.8876953125
+      },
+      "correctness": {
+        "runs": 2000,
+        "failures": 2000
+      }
+    },
+    {
+      "name": "P7",
+      "config": {
+        "k": 4,
+        "eta1": 2,
+        "eta2": 2,
+        "du": 12,
+        "dv": 6,
+        "ct_bytes": 1728,
+        "log2_delta": -221.38521587276801,
+        "security": 241.75563141280617,
+        "security_matzov": 262.3356800074737,
+        "pk_bytes": 1568,
+        "sk_bytes": 3168
+      },
+      "sizes": {
+        "pk_bytes": 1568,
+        "sk_bytes": 3168,
+        "ct_bytes": 1728
+      },
+      "latency": {
+        "keygen": {
+          "mean_ms": 5.87951600109227,
+          "std_ms": 0.2944688402800535
+        },
+        "encaps": {
+          "mean_ms": 7.195479899761267,
+          "std_ms": 0.39700197269681287
+        },
+        "decaps": {
+          "mean_ms": 9.509571999660693,
+          "std_ms": 0.5667823986102778
+        }
+      },
+      "memory": {
+        "peak_kb": 349.1064453125
+      },
+      "correctness": {
+        "runs": 2000,
+        "failures": 2000
+      }
+    }
+  ]
+}

@@ -37,18 +37,16 @@ PARAM_RANGES = {
 
 # Why these bounds — referenced in Section 3.3 of the thesis
 PARAM_JUSTIFICATION = {
-    "k":    ("k=1 yields ~64-bit security, below the 128-bit threshold. "
-             "k≥5 exceeds NIST Level V and offers no practical gain."),
-    "eta1": ("eta1=0 is deterministic key generation (cryptographically "
-             "insecure). eta1>5 appears nowhere in the literature and "
-             "drives delta upward with diminishing security return."),
-    "eta2": ("eta2>3 contributes negligible additional security relative "
-             "to the noise already introduced by dv compression."),
-    "du":   ("du=12 is lossless compression. du<8 introduces rounding "
-             "error large enough to fail the delta gate for all k values."),
-    "dv":   ("dv=6 is near-lossless for v. dv<3 makes the v-compression "
-             "variance (q/2^(dv+1))^2 so large that delta exceeds 2^-64 "
-             "in virtually all configurations."),
+    "k":    ("k=1 is far below every tier's security threshold (39-44 bits); "
+             "k>=5 exceeds NIST Level V with no practical benefit."),
+    "eta1": ("eta1=0 removes the noise (instance solvable by linear algebra); "
+             "larger eta1 only increases delta."),
+    "eta2": ("eta2=0 removes the noise; larger eta2 only increases delta."),
+    "du":   ("du=12 is (near) lossless for q=3329. No du=8 configuration is "
+             "feasible at any tier, so du<8 cannot be feasible either."),
+    "dv":   ("dv>6 only enlarges the ciphertext. The smallest feasible dv=3 "
+             "ciphertext minus the at most 64 bytes saved by dv<3 never beats "
+             "the smallest ciphertext found at any tier."),
 }
 
 

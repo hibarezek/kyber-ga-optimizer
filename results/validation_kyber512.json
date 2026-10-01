@@ -1,0 +1,97 @@
+{
+  "baseline": "Kyber-512",
+  "n_feasible": 186,
+  "true_front_size": 9,
+  "nsga_front_size": 9,
+  "coverage": 1.0,
+  "igd": 0.0,
+  "identical": true,
+  "convergence": {
+    "generation_full_coverage": 15,
+    "unique_evals_full_coverage": 88,
+    "total_unique_evaluated": 116
+  },
+  "true_front": [
+    {
+      "k": 2,
+      "eta1": 3,
+      "eta2": 2,
+      "du": 10,
+      "dv": 4,
+      "ct_bytes": 768,
+      "log2_delta": -139.13583701426407
+    },
+    {
+      "k": 2,
+      "eta1": 3,
+      "eta2": 2,
+      "du": 10,
+      "dv": 5,
+      "ct_bytes": 800,
+      "log2_delta": -157.45098312452086
+    },
+    {
+      "k": 2,
+      "eta1": 3,
+      "eta2": 2,
+      "du": 10,
+      "dv": 6,
+      "ct_bytes": 832,
+      "log2_delta": -166.4988606908043
+    },
+    {
+      "k": 2,
+      "eta1": 3,
+      "eta2": 2,
+      "du": 11,
+      "dv": 5,
+      "ct_bytes": 864,
+      "log2_delta": -185.183783536382
+    },
+    {
+      "k": 2,
+      "eta1": 3,
+      "eta2": 2,
+      "du": 11,
+      "dv": 6,
+      "ct_bytes": 896,
+      "log2_delta": -195.88552237524334
+    },
+    {
+      "k": 2,
+      "eta1": 3,
+      "eta2": 2,
+      "du": 12,
+      "dv": 5,
+      "ct_bytes": 928,
+      "log2_delta": -211.8824758236563
+    },
+    {
+      "k": 2,
+      "eta1": 3,
+      "eta2": 2,
+      "du": 12,
+      "dv": 6,
+      "ct_bytes": 960,
+      "log2_delta": -224.16586946705215
+    },
+    {
+      "k": 3,
+      "eta1": 1,
+      "eta2": 1,
+      "du": 9,
+      "dv": 5,
+      "ct_bytes": 1024,
+      "log2_delta": -242.80413010612114
+    },
+    {
+      "k": 3,
+      "eta1": 1,
+      "eta2": 1,
+      "du": 10,
+      "dv": 3,
+      "ct_bytes": 1056,
+      "log2_delta": -300.0
+    }
+  ]
+}
